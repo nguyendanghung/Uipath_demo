@@ -1,0 +1,64 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Android",
+      "Description": null,
+      "Url": "http://localhost:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "10.0",
+      "DeviceName": "Pixel 4 API 29",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "Beam",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "F:\\ProjectPG\\beam\\escooterapp-1.80.1-95ef247fb.apk",
+            "appActivity": ".MainActivity",
+            "appPackage": "com.escooterapp"
+          },
+          "StartPage": null
+        }
+      }
+    },
+    {
+      "$id": "2",
+      "Name": "Bunluxry",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "C:\\Users\\Hanoicomputer\\Downloads\\app-release.apk",
+            "appActivity": ".MainActivity",
+            "appPackage": "vsme.vn.bunluxury"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}

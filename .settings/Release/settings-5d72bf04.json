@@ -1,0 +1,6 @@
+{
+  "UiPath.MobileAutomation.Activities.Generic.DelayAfter": "1",
+  "UiPath.MobileAutomation.Activities.Generic.DelayBefore": "1",
+  "UiPath.MobileAutomation.Activities.Generic.Timeout": "30",
+  "UiPath.MobileAutomation.Activities.Generic.MirroringEnabled": "True"
+}

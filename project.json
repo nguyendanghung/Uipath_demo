@@ -1,0 +1,83 @@
+{
+  "name": "TestAutomationProject",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.MobileAutomation.Activities": "[22.4.4]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Terminal.Activities": "[2.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.111488693",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8f38b050-79ea-418d-b75f-5f50638542ae",
+        "testCaseType": "TestCase",
+        "fileName": "Login\\LoginShouldFailWithBadPass.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "80b9f201-b464-4f53-abf9-ad409c89b9d7",
+        "testCaseType": "TestCase",
+        "fileName": "ApplyLoan\\LoanSuccess.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "86e59d86-55a0-449a-bef5-1c5455229720",
+        "testCaseType": "TestCase",
+        "fileName": "FolowChart\\TestFolowChart.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "79024fc4-bb30-49ab-8fc1-b71fa7f45f7f",
+        "testCaseType": "TestCase",
+        "fileName": "Mobile\\Mobile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e726ae5e-c165-4711-b510-de5c8fdda910",
+        "testCaseType": "TestCase",
+        "fileName": "ComponentShare\\Login.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
